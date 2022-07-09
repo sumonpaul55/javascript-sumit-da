@@ -28,10 +28,53 @@
       background: red;
       color: white;
     }
+
+    .main {
+      width: 500px;
+      height: 500px;
+    }
+
+    .animation {
+      width: 50px;
+      height: 50px;
+    }
   </style>
 </head>
 
 <body>
+
+
+  <div class="mt-4">
+    <h3 class="text-center">
+      <button class="btn btn-success"
+              onclick="clickBtn()">start</button>
+    </h3>
+    <h1>javascript animation </h1>
+    <div class="mx-auto main bg-warning position-relative">
+      <div class="animation border border-dark bg-danger position-absolute"
+           id="animate">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- <form name="myForm"
+        action="/action_page.php"
+        onsubmit="return validateForm()"
+        method="post">
+    Name: <input type="text"
+           name="fname">
+    <input type="submit"
+           value="Submit">
+  </form> -->
+
+  <!-- <input type="number"
+         id="numb">
+
+  <input type="submit"
+         name=""
+         id="submit"> -->
+
   <!-- <div title="I am title" id="demo">hi</div>
     <form action="/action_page.php">
       <label for="birthday">Birthday:</label>
@@ -92,7 +135,7 @@
       <li class="list-item">lorem4</li>
       <li class="list-item">lorem5</li>
     </ul> -->
-
+  <!-- 
   <section class="payoneer">
     <div class="container">
       <div class="main"
@@ -179,7 +222,7 @@
 
 
 
-  <div id="sumon"></div>
+  <div id="sumon"></div> -->
 
 
 
@@ -190,15 +233,7 @@
 
 
 
-
-
-
-
-
-  <script src="Dom-event.js"></script>
-  <script src="objectevents.js"></script>
-
-  <script src="objectdefinition.js"></script>
+  <script src="animation.js"></script>
 </body>
 
 </html>
